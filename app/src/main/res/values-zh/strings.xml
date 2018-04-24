@@ -1,0 +1,32 @@
+<resources>
+    // Login Activity
+    <string name="app_name">斗一斗</string>
+    <string name="tv_name">帐号:</string>
+    <string name="tv_pwd">密码:</string>
+    <string name="et_name">请输入帐号!</string>
+    <string name="et_pwd">请输入密码!</string>
+    <string name="bt_notice">我阅读并同意《注册条款》！</string>
+    <string name="bt_ok">登录</string>
+    <string name="bt_reg">注册</string>
+    <string name="bt_find">找回密码</string>
+
+    //Register Activity
+    <string name="tv_reg_title">注册</string>
+    <string name="tv_reg_name">帐号：</string>
+    <string name="tv_reg_pwd">密码：</string>
+    <string name="tv_reg_rpwd">确认密码：</string>
+    <string name="et_reg_name">请创建用户名！</string>
+    <string name="et_reg_pwd">请输入密码！</string>
+    <string name="et_reg_rpwd">请再次输入密码！</string>
+    <string name="bt_reg_ok">注册</string>
+    <string name="bt_reg_agree">我阅读并同意《注册条款》！</string>
+
+    //Forgot Activity
+    <string name="tv_for_title">找回密码</string>
+    <string name="tv_for_name">帐号：</string>
+    <string name="tv_for_pwd">密码：</string>
+    <string name="et_for_name">请输入用户名！</string>
+    <string name="et_for_pwd">请输入密码！</string>
+    <string name="bt_for_ok">提交</string>
+
+</resources>

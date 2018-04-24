@@ -1,3 +1,32 @@
 <resources>
-    <string name="app_name">Rains</string>
+
+    // Login Activity
+    <string name="app_name">Battle</string>
+    <string name="tv_name">name:</string>
+    <string name="tv_pwd">password:</string>
+    <string name="et_name">input account!</string>
+    <string name="et_pwd">input password!</string>
+    <string name="bt_ok">Login</string>
+    <string name="bt_reg">Register</string>
+    <string name="bt_find">Find Password</string>
+
+    //Register Activity
+    <string name="tv_reg_title">Register</string>
+    <string name="tv_reg_name">name:</string>
+    <string name="tv_reg_pwd">password:</string>
+    <string name="tv_reg_rpwd">Confirm password:</string>
+    <string name="et_reg_name">input account!</string>
+    <string name="et_reg_pwd">input password!</string>
+    <string name="et_reg_rpwd">input password again!</string>
+    <string name="bt_reg_ok">Register</string>
+    <string name="bt_reg_agree">Register</string>
+
+    //Forgot Activity
+    <string name="tv_for_title">Retrieve</string>
+    <string name="tv_for_name">name:</string>
+    <string name="tv_for_pwd">password:</string>
+    <string name="et_for_name">input account!</string>
+    <string name="et_for_pwd">input password!</string>
+    <string name="bt_for_ok">Commit</string>
+
 </resources>
