@@ -11,7 +11,7 @@
     <string name="bt_find">Find Password</string>
 
     //Register Activity
-    <string name="tv_reg_title">Register</string>
+    <string name="tv_reg_title">Choose picture:</string>
     <string name="tv_reg_name">name:</string>
     <string name="tv_reg_pwd">password:</string>
     <string name="tv_reg_rpwd">Confirm password:</string>

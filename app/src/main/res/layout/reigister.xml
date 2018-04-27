@@ -7,13 +7,29 @@
     android:orientation="vertical"
     tools:context="com.boss.rains.ReigisterActivity">
 
-    <TextView
-        android:id="@+id/tv_reg_title"
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="51dp"
-        android:gravity="center"
-        android:text="@string/tv_reg_title"
-        android:textSize="30sp" />
+        android:layout_height="120dp">
+
+        <ImageButton
+            android:id="@+id/img_reg_pic"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            app:srcCompat="@drawable/head" />
+
+        <TextView
+            android:id="@+id/tv_reg_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="@string/tv_reg_title"
+            android:textSize="20sp" />
+    </RelativeLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
