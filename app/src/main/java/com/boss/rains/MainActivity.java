@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
                 if (!TextUtils.isEmpty(username) && !TextUtils.isEmpty(userpwd)) {
                     Log.i("Rains: MainActivity", "002");
                     //intent 运输大队长 Activity之间数据交互
-                    Intent intent = new Intent(MainActivity.this, log inSuccActivity.class);
+                    Intent intent = new Intent(MainActivity.this, loginSuccActivity.class);
                     intent.putExtra("username", username);
                     intent.putExtra("userpwd", userpwd);
                     intent.putExtra("isMarreid", true);
@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
                     // startActivityForResult(intent, REQUEST_CODE);
                     Log.i("Rains: MainActivity", "003");
                 } else {
-                    Toast.makeText(MainActivity.this, "用户名或密码不能为空", 1).show();
+                    Toast.makeText(MainActivity.this, "用户名或密码不能为空", Toast.LENGTH_LONG).show();
                 }
             }
         });
